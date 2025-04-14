@@ -2,7 +2,7 @@
 require_once 'includes/config.php';
 require_once 'includes/header.php';
 
-// Buscar planos do banco de dados
+
 $stmt = $pdo->query("SELECT * FROM planos");
 $planos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
